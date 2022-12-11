@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 li
@@ -780,6 +781,12 @@ body
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s;
+}
+
+.list__ul li a:hover
+{
+    color: rgba(255, 255, 255, 1);
 }
 
 .footer__address
