@@ -11,6 +11,7 @@
 
 body::selection
 {
+    background-color: #6d6d6db9;
     opacity: 0.7;
 }
 
